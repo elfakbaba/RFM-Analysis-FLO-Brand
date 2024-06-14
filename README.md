@@ -1,20 +1,39 @@
-# RFM-Analysis-FLO-Brand
+# RFM Analysis for FLO Customer Segmentation
+# Business Challenge:
 
-# Business Problem
-Customers of FLO's online shopping site should be segmented and marketing strategies should be determined according to these segments. For this purpose, the behaviors of the customers will be defined and groups will be formed according to the clusters in these behaviors.
+This project tackles the challenge of customer segmentation for FLO, a leading shoe brand with online and offline stores. Our goal is to analyze past customer shopping behavior and create distinct customer segments. These segments will then be used to develop targeted marketing strategies that resonate with each group's preferences and buying habits.
 
-# Dataset Story
-The dataset consists of information obtained from the past shopping behavior of customers (both online and offline shoppers) who made their last purchase from Flo on OmniChannel in the years 2020-2021.
+# Data-Driven Approach:
 
-master_id: Unique client number
-order_channel: Which channel of the shopping platform is used (Android, ios, Desktop, Mobile)
-last_order_channel: The channel where the last purchase was made
-first_order_date: Customer's first purchase date
-last_order_date: Customer's last purchase date
-last_order_date_online: The date of the last purchase made by the customer on the online platform
-last_order_date_offline:Date of the customer's last purchase made on the offline platform
-order_num_total_ever_online: Total number of purchases made by the customer on the online platform
-order_num_total_ever_offline: The total number of purchases made by the customer offline
-customer_value_total_ever_offline: The total price the customer paid for offline purchases
-customer_value_total_ever_online: The total price the customer paid for online purchases
-Interest_in_categories_12:List of categories that the customer has purchased in the last 12 months
+To achieve this goal, we leverage the power of RFM analysis. RFM stands for Recency, Frequency, and Monetary Value - three key metrics that capture essential aspects of customer behavior:
+
+Recency: How recently a customer made their last purchase?
+Frequency: How often a customer makes purchases?
+Monetary Value: How much has a customer spent overall?
+
+# Dataset Details:
+
+The project utilizes a rich dataset encompassing information about FLO customers' historical shopping behavior (both online and offline) from 2020-2021. Key features within the dataset include:
+
+-Customer Identification: master_id - a unique identifier for each customer
+
+-Purchase Channels: order_channel and last_order_channel - indicate the channel used for purchases (Android, iOS, Desktop, Mobile)
+
+-Purchase History: first_order_date and last_order_date - capture the customer's first and last purchase dates
+
+-Online vs. Offline Activity: last_order_date_online and last_order_date_offline - provide specific dates of the latest online and offline purchases
+
+-Purchase Frequency: order_num_total_ever_online and order_num_total_ever_offline - represent the total number of online and offline purchases made by the customer
+
+-Purchase Value: customer_value_total_ever_offline and customer_value_total_ever_online - reflect the total amount spent online and offline respectively
+
+-Category Preferences: Interest_in_categories_12 - reveals a list of categories the customer has purchased from in the past year
+
+-By analyzing these features, we can segment customers based on their RFM characteristics and develop targeted marketing strategies to enhance customer engagement and loyalty.
+
+# Outcomes:
+
+Customer Segmentation: Identify distinct customer segments based on RFM analysis.
+Targeted Marketing Strategies: Develop tailored marketing campaigns for each segment, maximizing campaign effectiveness and customer engagement.
+Improved Customer Retention: Leverage customer insights to increase customer retention and brand loyalty.
+This project demonstrates the power of RFM analysis in customer segmentation for the retail industry. By understanding customer behavior patterns, FLO can personalize their marketing efforts and build stronger customer relationships.
